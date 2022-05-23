@@ -6,10 +6,10 @@
 **Example**:
 -----------------------------------
  - s='12:01:00PM'
- - Return '12:01:00'.
+ - Return => '12:01:00'.
 
  - s='12:01:00AM'
- - Return '00:01:00'.
+ - Return => '00:01:00'.
 -----------------------------------
 
 **Function Description**
@@ -24,6 +24,7 @@ timeConversion has the following parameter(s):
 Returns =>
  
  string: the time in 24 hour format
+
 ------------------------------------------------------
 
 **Input Format**
@@ -37,6 +38,7 @@ All input times are valid
 *********************************
 Sample Input 0
  - 07:05:45PM
+
 Sample Output 0
  - 19:05:45
 *********************************
