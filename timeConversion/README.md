@@ -5,27 +5,28 @@
 
 **Example**:
 -----------------------------------
- - s='12:01:00PM'                 -
- - Return '12:01:00'.\n           -
-                                  -
- - s='12:01:00AM'                 -
- - Return '00:01:00'.             -
+ - s='12:01:00PM'
+ - Return '12:01:00'.
+
+ - s='12:01:00AM'
+ - Return '00:01:00'.
 -----------------------------------
 
 **Function Description**
 
 Complete the timeConversion function in the editor below. It should return a new string representing the input time in 24 hour format.
 
+------------------------------------------------------
 timeConversion has the following parameter(s):
 
- *string s: a time in 12 hour format
+ string s: a time in 12 hour format
 
 Returns =>
  
- *string: the time in 24 hour format
+ string: the time in 24 hour format
+------------------------------------------------------
 
-
-Input Format
+**Input Format**
 
 A single string  that represents a time in -hour clock format (i.e.: hh:mm:ssAM or hh:mm:ssPM).
 
@@ -33,8 +34,9 @@ Constraints
 
 All input times are valid
 
-
+*********************************
 Sample Input 0
- *07:05:45PM
+ - 07:05:45PM
 Sample Output 0
- *19:05:45
+ - 19:05:45
+*********************************
